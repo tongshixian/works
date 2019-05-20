@@ -176,15 +176,15 @@ MySQL 使用下列数据类型在数据库中存储日期或日期/时间值：
 
 ## 多行子查询 ##
 
-select s.s_id , s_name , c.c_id , c_name , score
-from t_grade g join t_student s on g.s_id = s.s_id
-   join t_course c on g.c_id = c.c_id
-having c.c_id != 400004 and score > all (
-select score
-from t_grade 
-where c_id = 400004
-)
-group by c.c_id , s.s_id , s.s_name , c_name ,score
+    select s.s_id , s_name , c.c_id , c_name , score
+    from t_grade g join t_student s on g.s_id = s.s_id
+       join t_course c on g.c_id = c.c_id
+    having c.c_id != 400004 and score > all (
+    select score
+    from t_grade 
+    where c_id = 400004
+    )
+    group by c.c_id , s.s_id , s.s_name , c_name ,score
 
 # 在线视图查询(表名1：a ) #
 
@@ -467,3 +467,7 @@ RIGHT JOIN 关键字会右表 (table_name2) 那里返回所有的行，即使在
 select username，count(username) as 数量 from members group by username order by count(username) limit 10;
 
 # 联合查询，关联查询，聚合函数 左连接、右链接，子查询 ，建表sql和添加索引sql #
+
+![](images/5d60c55074326f1d7e2a3f8a7bbe2927.jpg)
+
+![](images/04.gif)
