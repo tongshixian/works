@@ -483,7 +483,8 @@ select username，count(username) as 数量 from members group by username order
 
 |    数据类型    |  字节  |    最小值    |    最大值    |
 | ------------- |  ----- | ------------| ------------|
-|   tinyint     |    1   |无符号 0     |有符号 255    |
+|   tinyint     |    1   |无符号 0     |无符号 255    |
+|smallint|2|无符号 0|无符号65535|
 
 
 
