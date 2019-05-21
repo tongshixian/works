@@ -474,18 +474,17 @@ select username，count(username) as 数量 from members group by username order
 
 # MySQL中字段类型的取值范围 #
 
-- –第一步：执行FROM
-- –第二步：WHERE条件过滤
-- –第三步：GROUP BY分组
-- –第四步：执行SELECT投影列
-- –第五步：HAVING条件过滤
-- –第六步：执行ORDER BY 排序
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+|    数据类型    |  字节  |    最小值    |    最大值    |
+| ------------- |  ----- | ------------| ------------|
+|   tinyint     |    1   |无符号 0     |有符号 255    |
+
 
 
 
