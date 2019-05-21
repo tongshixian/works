@@ -471,3 +471,22 @@ select username，count(username) as 数量 from members group by username order
 ![](images/5d60c55074326f1d7e2a3f8a7bbe2927.jpg)
 
 ![](images/04.gif)
+
+# MySQL中字段类型的取值范围 #
+
+- –第一步：执行FROM
+- –第二步：WHERE条件过滤
+- –第三步：GROUP BY分组
+- –第四步：执行SELECT投影列
+- –第五步：HAVING条件过滤
+- –第六步：执行ORDER BY 排序
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+
+
