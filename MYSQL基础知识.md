@@ -485,6 +485,8 @@ select username，count(username) as 数量 from members group by username order
 | ------------- |  ----- | ------------| ------------|
 |   tinyint     |    1   |无符号 0     |无符号 255    |
 |smallint|2|无符号 0|无符号65535|
+|mediumint|3|无符号0|无符号1677215|
+|int、integer|4|无符号0|无符号4294967295|
 
 
 
