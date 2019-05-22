@@ -487,11 +487,8 @@ select username，count(username) as 数量 from members group by username order
 |smallint|2|无符号 0|无符号65535|
 |mediumint|3|无符号0|无符号1677215|
 |int、integer|4|无符号0|无符号4294967295|
-
 |bigint|8|无符号 0|无符号18446744073709551615|
-
 |浮点数类型|字节|最小值|最大值|
-
 |float|4|(正负)1.175494351E-38|（正负）3.402823466E+38|
 
 
