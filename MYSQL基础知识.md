@@ -476,13 +476,6 @@ select username，count(username) as 数量 from members group by username order
 
 数值类型
 
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
 |    数据类型    |  字节  |    最小值    |    最大值    |
 | ------------- |  ----- | ------------| ------------|
 |   tinyint     |    1   |无符号 0     |无符号 255    |
