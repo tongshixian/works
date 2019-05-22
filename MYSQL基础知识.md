@@ -474,6 +474,8 @@ select username，count(username) as 数量 from members group by username order
 
 # MySQL中字段类型的取值范围 #
 
+数值类型
+
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -502,6 +504,15 @@ select username，count(username) as 数量 from members group by username order
 |timestamp  |4 |1970101080001|2038年的某个时刻|
 |time| 3 |-838:59:59|838:59:59|
 |year| 1 |1901|2155|
+
+字符类型
+
+| 字符串类型 |  字节  | 描述及存储需求  |
+| ------------- |  ----- | ------------|
+|char(M)|M|M为0~255之间的整数|
+|varchar(M)||M为0~65535之间的整数，值的长度+1个字节|
+|tinyblob||M为0~255字节，值的长度+1个字节|
+
 
 
 
