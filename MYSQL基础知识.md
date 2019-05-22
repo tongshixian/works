@@ -490,6 +490,7 @@ select username，count(username) as 数量 from members group by username order
 |bigint|8|无符号 0|无符号18446744073709551615|
 |浮点数类型|字节|最小值|最大值|
 |float|4|(正负)1.175494351E-38|（正负）3.402823466E+38|
+|double|8|(正负)2.225073858507214E-308|（正负）1.7976931348623157E+308|
 
 
 
