@@ -34,6 +34,8 @@ https://www.cnblogs.com/zouke1220/p/9394356.html
 
 接口的安全性主要围绕Token、Timestamp和Sign三个机制展开设计，保证接口的数据不会被篡改和重复调用。
 
+https://cloud.tencent.com/developer/article/1369607
+
 **Token授权机制：（Token是客户端访问服务端的凭证）**
 用户使用用户名密码登录后服务端给客户端返回一个Token（通常是UUID），并将Token-UserId以键值对的形式存放在缓存服务器中。服务端接收到请求后进行Token验证，如果Token不存在，说明请求无效。
 
